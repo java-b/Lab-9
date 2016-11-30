@@ -5,9 +5,11 @@
 ```
 public abstract double earnings( ); 
 ```
+
 >子类必须重写父类的earnings方法，给出各自领取报酬的具体方式，其中YearWorker 挣180/year，MonthWorker挣10/month，WeekWorker挣2/week。 
 
->实现一个Company类，该类用employee数组和double的salaries作为成员， employee数组的成员可以是YearWorker对象的上转型对象、MonthWorker对象的上转型对 象或WeekWorker对象的上转型对象，同时具有一个有参构造函数如下： 
+>实现一个Company类，该类用employee数组和double的salaries作为成员， employee数组的成员可以是YearWorker对象的上转型对象、MonthWorker对象的上转型
+>对 象或WeekWorker对象的上转型对象，同时具有一个有参构造函数如下： 
 
 ```
 public Company(Employee[ ] employee){
@@ -24,6 +26,7 @@ public Company(Employee[ ] employee){
       return salaries;    
  } 
  ```
+ 
 > 实现上述几个类之后，将Lab10_1.java放置在同一目录下。编译并运行Lab10_1.java。 如果一切正确（不允许修改Lab10_1.java），显示如下： 
 >![alt tag](https://github.com/java-b/Lab-9/blob/master/1.png)
  

@@ -30,7 +30,7 @@ public Company(Employee[ ] employee){
 > 实现上述几个类之后，将Lab10_1.java放置在同一目录下。编译并运行Lab10_1.java。 如果一切正确（不允许修改Lab10_1.java），显示如下： 
 >![alt tag](https://github.com/java-b/Lab-9/blob/master/1.png)
  
- ##2.接口 
+##2.接口 
 >实现一个 ComputeTotalSales 接口，该接口中有一个方法： 
 
 >```
@@ -61,6 +61,6 @@ public Shop(ComputeTotalSales[] goods){
  
  >![alt tag](https://github.com/java-b/Lab-9/blob/master/2.png)
  
- ##3.抽象类与接口
+##3.抽象类与接口
 >同学们已经简单试过抽象类和接口了，是不是发现两者很相似的，那么我们在什么情况下该使用抽象类在什么情况下使用接口？写一份 200 字以上自己的理解作为这个 
 >lab的结尾吧~ 
